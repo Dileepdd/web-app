@@ -23,13 +23,18 @@ ChartJS.register(
 
 const BarChart = () => {
   const data = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["Coding","Low Code","RAD","No Code"],
     datasets: [
       {
-        label: "Sales",
-        data: [65, 59, 80, 81, 56, 55, 40],
-        backgroundColor: "rgba(75, 192, 192, 0.6)",
-        borderColor: "rgba(75, 192, 192, 1)",
+        label: "Average Time Required (Weeks)",
+        data: [16,8,4,0.5],
+        backgroundColor: [
+            "rgba(254, 106, 53,1)",
+            "rgba(44, 175, 254,1)",
+            "rgba(84, 79, 197,1)",
+            "rgba(0, 226, 114,1)",
+        ],
+        // borderColor: "rgba(75, 192, 192, 1)",
         borderWidth: 1,
       },
     ],
