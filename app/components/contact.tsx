@@ -22,10 +22,10 @@ const Contact = () => {
                         className="object-cover rounded-[2px] mr-2" // Margin-right for spacing
                         height={20}
                         width={20} // Fixed width
-                        src={userData.social[item].src}
+                        src={(userData.social as Record<string, { src: string }>)[item].src}
                       />
                       <span className="ml-2">
-                        <a target="_blank" href={userData.social[item].link}> {item} </a>
+                        <a target="_blank" href={(userData.social as Record<string, { link: string }>)[item].link}> {item} </a>
                         </span>
                     </div>
                   </li>
