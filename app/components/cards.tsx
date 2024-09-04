@@ -52,13 +52,20 @@ const ProjectCards = ({
                 <div className="p-1 mt-1">
                   <p className="text-xs">{description || "your description"}</p>
                 </div>
-                <label
+                <Link
+                href={`/projects/${pid}`}
+                  className=" inline-flex items-center absolute cursor-pointer bottom-1 hover:text-customGreen border-b-2 border-dotted border-opacity-35"
+                >
+                  View Project{" "}
+                  <ArrowNarrowRightIcon className="w-3 h-3 hover:text-customGreen ml-2" />
+                </Link>
+                {/* <label
                   htmlFor="my_modal_6"
                   className=" inline-flex items-center absolute cursor-pointer bottom-1 hover:text-customGreen border-b-2 border-dotted border-opacity-35"
                 >
                   View Project{" "}
                   <ArrowNarrowRightIcon className="w-3 h-3 hover:text-customGreen ml-2" />
-                </label>
+                </label> */}
 
                 {/* Put this part before </body> tag */}
                 <input
