@@ -1,0 +1,80 @@
+{
+    "name" : "Rasool Shaik",
+    "Gender" : "Male",
+    "description" : "Product Designer dedicated to transforming user needs into intuitive, innovative experiences.",
+    "projects_title" : "Selected UX Projects",
+    "projects" : [
+        {
+          "name": "Project Alpha",
+          "description": "A web application for managing tasks and projects.",
+          "date": "2024-01-15",
+          "status": "Completed",
+          "technologies": ["React", "Node.js", "MongoDB"],
+          "id" : "001"
+        },
+        {
+          "name": "Project Beta",
+          "description": "An e-commerce platform with integrated payment systems.",
+          "date": "2024-03-22",
+          "status": "In Progress",
+          "technologies": ["Next.js", "Stripe", "PostgreSQL"],
+          "id" : "002"
+
+        },
+        {
+          "name": "Project Gamma",
+          "description": "A mobile app for fitness tracking and goal setting.",
+          "date": "2024-06-05",
+          "status": "Pending",
+          "technlogies": ["React Native", "Firebase", "GraphQL"],
+          "id" : "003"
+        },
+        {
+          "name": "Project Delta",
+          "description": "A platform for connecting freelancers with clients.",
+          "date": "2024-08-30",
+          "status": "Completed",
+          "technologies": ["Vue.js", "Express", "MySQL"],
+          "id" : "004"
+        }
+      ],
+      "additional_projects" : [
+        {
+          "name": "Project Alpha",
+          "description": "A web application for managing tasks and projects.",
+          "date": "2024-01-15",
+          "status": "Completed",
+          "technologies": ["React", "Node.js", "MongoDB"],
+          "id" : "001"
+        },
+        {
+          "name": "Project Beta",
+          "description": "An e-commerce platform with integrated payment systems.",
+          "date": "2024-03-22",
+          "status": "In Progress",
+          "technologies": ["Next.js", "Stripe", "PostgreSQL"],
+          "id" : "002"
+        },
+        {
+            "name": "Project Gamma",
+            "description": "A mobile app for fitness tracking and goal setting.",
+            "date": "2024-06-05",
+            "status": "Pending",
+            "technlogies": ["React Native", "Firebase", "GraphQL"],
+            "id" : "003"
+        },
+        {
+            "name": "Project Delta",
+            "description": "A platform for connecting freelancers with clients.",
+            "date": "2024-08-30",
+            "status": "Completed",
+            "technologies": ["Vue.js", "Express", "MySQL"],
+            "id" : "004"
+          }
+      ],
+      "footer" : {
+        "title" : "@2024 Rasool Shaik",
+        "description" : "Designed With Figma, Html & Css and a dash of design genius & creativity" 
+      } 
+      
+}
