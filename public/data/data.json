@@ -1,80 +1,158 @@
 {
-    "name" : "Rasool Shaik",
-    "Gender" : "Male",
-    "description" : "Product Designer dedicated to transforming user needs into intuitive, innovative experiences.",
-    "projects_title" : "Selected UX Projects",
-    "projects" : [
-        {
-          "name": "Project Alpha",
-          "description": "A web application for managing tasks and projects.",
-          "date": "2024-01-15",
-          "status": "Completed",
-          "technologies": ["React", "Node.js", "MongoDB"],
-          "id" : "001"
-        },
-        {
-          "name": "Project Beta",
-          "description": "An e-commerce platform with integrated payment systems.",
-          "date": "2024-03-22",
-          "status": "In Progress",
-          "technologies": ["Next.js", "Stripe", "PostgreSQL"],
-          "id" : "002"
-
-        },
-        {
-          "name": "Project Gamma",
-          "description": "A mobile app for fitness tracking and goal setting.",
-          "date": "2024-06-05",
-          "status": "Pending",
-          "technlogies": ["React Native", "Firebase", "GraphQL"],
-          "id" : "003"
-        },
-        {
-          "name": "Project Delta",
-          "description": "A platform for connecting freelancers with clients.",
-          "date": "2024-08-30",
-          "status": "Completed",
-          "technologies": ["Vue.js", "Express", "MySQL"],
-          "id" : "004"
-        }
-      ],
-      "additional_projects" : [
-        {
-          "name": "Project Alpha",
-          "description": "A web application for managing tasks and projects.",
-          "date": "2024-01-15",
-          "status": "Completed",
-          "technologies": ["React", "Node.js", "MongoDB"],
-          "id" : "001"
-        },
-        {
-          "name": "Project Beta",
-          "description": "An e-commerce platform with integrated payment systems.",
-          "date": "2024-03-22",
-          "status": "In Progress",
-          "technologies": ["Next.js", "Stripe", "PostgreSQL"],
-          "id" : "002"
-        },
-        {
-            "name": "Project Gamma",
-            "description": "A mobile app for fitness tracking and goal setting.",
-            "date": "2024-06-05",
-            "status": "Pending",
-            "technlogies": ["React Native", "Firebase", "GraphQL"],
-            "id" : "003"
-        },
-        {
-            "name": "Project Delta",
-            "description": "A platform for connecting freelancers with clients.",
-            "date": "2024-08-30",
-            "status": "Completed",
-            "technologies": ["Vue.js", "Express", "MySQL"],
-            "id" : "004"
-          }
-      ],
-      "footer" : {
-        "title" : "@2024 Rasool Shaik",
-        "description" : "Designed With Figma, Html & Css and a dash of design genius & creativity" 
-      } 
-      
+  "user": {
+    "name": "Rasool Shaik",
+    "Gender": "Male",
+    "role":"Product Designer",
+    "phone" : "1234567890",
+    "mail" : "mail@gmail.com",
+    "website" : "rasoolTheBoss.com",
+    "location" : "Guntur",
+    "nickName" : "Rasool", 
+    "description": "Product Designer dedicated to transforming user needs into intuitive, innovative experiences."
+  },
+  "projects_title": "Selected UX Projects",
+  "social": {
+    "linkedIn": {
+      "link": "https://www.linkedin.com/",
+      "username": "rasoolTheBoss",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+    },
+    "Twitter": {
+      "link": "https://x.com/",
+      "username": "rasoolTheBoss",
+      "src": "https://img.freepik.com/premium-photo/twitter-logo-icon-illustration-vector_895118-5895.jpg"
+    },
+    "Instagram": {
+      "link": "https://www.instagram.com/",
+      "username": "rasoolTheBoss",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png"
+    },
+    "Behance": {
+      "link": "https://www.behance.net/",
+      "username": "rasoolTheBoss",
+      "src": "https://cdn.worldvectorlogo.com/logos/behance-1.svg"
+    }
+  },
+  "projects": [
+    {
+      "name": "eSigns",
+      "description": "A web application for managing tasks and projects.",
+      "date": "2024-01-15",
+      "status": "Completed",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "id": "001",
+      "is_locked": true,
+      "password": "qwerty"
+    },
+    {
+      "name": "Kodefast",
+      "description": "An e-commerce platform with integrated payment.An e-commerce platform with integrated payment.An e-commerce platform with integrated payment.An e-commerce platform with integrated payment.",
+      "date": "2024-03-22",
+      "status": "In Progress",
+      "technologies": ["Next.js", "Stripe", "PostgreSQL"],
+      "id": "002",
+      "is_locked": true,
+      "password": "qwerty"
+    },
+    {
+      "name": "FormBuilder",
+      "description": "A mobile app for fitness tracking and goal setting.",
+      "date": "2024-06-05",
+      "status": "Pending",
+      "technlogies": ["React Native", "Firebase", "GraphQL"],
+      "id": "003"
+    },
+    {
+      "name": "Connector app",
+      "description": "A platform for connecting freelancers with clients.",
+      "date": "2024-08-30",
+      "status": "Completed",
+      "technologies": ["Vue.js", "Express", "MySQL"],
+      "id": "004"
+    }
+  ],
+  "additional_projects": [
+    {
+      "name": "Project Alpha",
+      "description": "A web application for managing tasks and projects.",
+      "date": "2024-01-15",
+      "status": "Completed",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "id": "001"
+    },
+    {
+      "name": "Project Beta",
+      "description": "An e-commerce platform with integrated payment systems.",
+      "date": "2024-03-22",
+      "status": "In Progress",
+      "technologies": ["Next.js", "Stripe", "PostgreSQL"],
+      "id": "002"
+    },
+    {
+      "name": "Project Gamma",
+      "description": "A mobile app for fitness tracking and goal setting.",
+      "date": "2024-06-05",
+      "status": "Pending",
+      "technlogies": ["React Native", "Firebase", "GraphQL"],
+      "id": "003"
+    }
+  ],
+  "creativeGallery": [
+    {
+      "name": "eSigns",
+      "id": "001"
+    },
+    {
+      "name": "Kodefast",
+      "id": "002"
+    },
+    {
+      "name": "FormBuilder",
+      "id": "003"
+    },
+    {
+      "name": "Connector app",
+      "id": "004"
+    },
+    {
+      "name": "eSigns",
+      "id": "005"
+    },
+    {
+      "name": "Kodefast",
+      "id": "006"
+    },
+    {
+      "name": "FormBuilder",
+      "id": "007"
+    },
+    {
+      "name": "Connector app",
+      "id": "008"
+    },
+    {
+      "name": "eSigns",
+      "id": "009"
+    },
+    {
+      "name": "Kodefast",
+      "id": "010"
+    },
+    {
+      "name": "FormBuilder",
+      "id": "011"
+    },
+    {
+      "name": "Connector app",
+      "id": "012"
+    }
+  ],
+  "footer": {
+    "title": "@2024 Rasool Shaik",
+    "description": "Designed With Figma, Html & Css and a dash of design genius & creativity"
+  },
+  "metadata": {
+    "title": "Rasool Shaik",
+    "description": "website of Rasool Shaik"
+  }
 }

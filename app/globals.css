@@ -6,4 +6,5 @@ body {
   color: white;
   background-color: rgb(13,13,13);
   height: 100%;
+  min-height: 100vh;
 }
