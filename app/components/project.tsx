@@ -1,4 +1,6 @@
   import React from "react";
+  import Kodefast from "./projects/kodefast";
+  import Esings from "./projects/esings";
   interface projectPage {
     id: string;
   }
@@ -6,9 +8,9 @@
     const renderComponent = () => {
       switch (id) {
         case "001":
-          return <div>001 component</div>;
+          return <div><Kodefast/></div>;
         case "002":
-          return <div>002 component</div>;
+          return <div><Esings/></div>;
         case "003":
           return <div>003 component</div>;
         case "004":

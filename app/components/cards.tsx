@@ -1,18 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Card,
-  CardBody,
-  Image,
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Button,
-  useDisclosure,
-  Input,
-} from "@nextui-org/react";
+import { Card, CardBody, Image } from "@nextui-org/react";
 import Link from "next/link";
 import { ArrowNarrowRightIcon, LockClosedIcon } from "@heroicons/react/solid";
 
@@ -34,12 +22,11 @@ const ProjectCards = ({
   isLocked,
   password,
 }: projectProps) => {
-  // const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div>
       <Card
         isBlurred
-        className="border-none bg-background/60 dark:bg-default-100/50 rounded-[5px] bg-customGray text-[#A1A1A1]"
+        className="border-none mx-5 bg-background/60 dark:bg-default-100/50 rounded-[5px] bg-customGray text-[#A1A1A1]"
         shadow="sm"
       >
         <CardBody className="p-2">
@@ -65,20 +52,37 @@ const ProjectCards = ({
                 <div className="p-1 mt-1">
                   <p className="text-xs">{description || "your description"}</p>
                 </div>
-                <Link
-                  href={`/projects/${pid}`}
-                  className="flex items-center absolute bottom-1 hover:text-customGreen border-b-2 border-dotted border-opacity-35"
+                <label
+                  htmlFor="my_modal_6"
+                  className=" inline-flex items-center absolute cursor-pointer bottom-1 hover:text-customGreen border-b-2 border-dotted border-opacity-35"
                 >
-                  View Project
+                  View Project{" "}
                   <ArrowNarrowRightIcon className="w-3 h-3 hover:text-customGreen ml-2" />
-                </Link>
-                {/* <Button onPress={onOpen} color="primary">
-      Open Modal
-    </Button> */}
+                </label>
+
+                {/* Put this part before </body> tag */}
+                <input
+                  type="checkbox"
+                  id="my_modal_6"
+                  className="modal-toggle"
+                />
+                <div className="modal" role="dialog">
+                  <div className="modal-box bg-customGray">
+                    <h3 className="text-lg font-bold">Hello!</h3>
+                    <p className="py-4">
+                      This modal works with a hidden checkbox!
+                    </p>
+                    <div className="modal-action">
+                      <label htmlFor="my_modal_6" className="btn">
+                        Close!
+                      </label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           )}
-          {["Project-Sub","Gallery"].includes(type) && (
+          {["Project-Sub", "Gallery"].includes(type) && (
             <div className="p-1 flex flex-col justify-center items-center">
               <Image
                 alt="Album cover"
@@ -95,31 +99,6 @@ const ProjectCards = ({
           )}
         </CardBody>
       </Card>
-      {/* <Modal isOpen={isOpen} onClose={onClose} placement="center">
-        <ModalContent>
-          <>
-            <ModalHeader className="flex flex-col gap-1">
-              Enter Password
-            </ModalHeader>
-            <ModalBody>
-              <Input
-                label="Password"
-                placeholder="Enter your password"
-                type="password"
-                variant="bordered"
-              />
-            </ModalBody>
-            <ModalFooter>
-              <Button color="danger" variant="flat" onPress={onClose}>
-                Close
-              </Button>
-              <Button color="primary" onPress={onClose}>
-                Open
-              </Button>
-            </ModalFooter>
-          </>
-        </ModalContent>
-      </Modal> */}
     </div>
   );
 };
