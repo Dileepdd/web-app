@@ -34,7 +34,7 @@ const HomeComp = () => {
             </div>
           ))}
         </div>
-        <div className="my-6 w-full px-40">
+        <div className="my-6 w-full px-10 xl:px-40">
           <div>
             <h1 className="text-customGreen text-center">
               Additional Projects
