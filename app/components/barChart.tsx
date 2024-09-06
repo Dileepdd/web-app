@@ -23,16 +23,16 @@ ChartJS.register(
 
 const BarChart = () => {
   const data = {
-    labels: ["Coding","Low Code","RAD","No Code"],
+    labels: ["Coding", "Low Code", "RAD", "No Code"],
     datasets: [
       {
         label: "Average Time Required (Weeks)",
-        data: [16,8,4,0.5],
+        data: [16, 8, 4, 0.5],
         backgroundColor: [
-            "rgba(254, 106, 53,1)",
-            "rgba(44, 175, 254,1)",
-            "rgba(84, 79, 197,1)",
-            "rgba(0, 226, 114,1)",
+          "rgba(254, 106, 53,1)",
+          "rgba(44, 175, 254,1)",
+          "rgba(84, 79, 197,1)",
+          "rgba(0, 226, 114,1)",
         ],
         // borderColor: "rgba(75, 192, 192, 1)",
         borderWidth: 1,
@@ -58,7 +58,11 @@ const BarChart = () => {
     },
   };
 
-  return <Bar data={data} options={options} />;
+  return (
+    <div>
+      <Bar data={data} options={options} />
+    </div>
+  );
 };
 
 export default BarChart;

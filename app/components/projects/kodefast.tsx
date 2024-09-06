@@ -8,7 +8,7 @@ const Kodefast = () => {
   return (
     <div className="xl:px-40 p-5">
       <ProjectLanding text={data?.description} />
-      <div className="bg-customGray p-5 flex justify-between">
+      <div className="bg-customGray p-5 flex flex-col space-y-4 md:flex-row md:justify-between md:space-y-0">
         <div className="flex flex-col">
           <div>Expertise</div>
           <div className="font-thin">
@@ -29,11 +29,14 @@ const Kodefast = () => {
         </div>
       </div>
 
-      <div className="mt-2 flex justify-center space-x-4">
-        <div className="w-1/2 h-[400px] pt-20">
-          <BarChart />
+      <div className="mt-2 flex flex-col md:flex-row justify-center md:space-x-4 space-y-4 md:space-y-0">
+        <div className="w-full md:w-1/2 h-[400px] flex items-center rounded-[5px] bg-customGray justify-center">
+          <div className="w-full max-w-[90%]">
+            <BarChart />
+          </div>
         </div>
-        <div className="w-1/2 h-[400px] flex items-center justify-center">
+
+        <div className="w-full md:w-1/2 h-[400px] flex items-center rounded-[5px] bg-customGray justify-center">
           <PieChart />
         </div>
       </div>

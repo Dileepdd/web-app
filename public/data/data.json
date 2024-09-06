@@ -25,7 +25,7 @@
     "Instagram": {
       "link": "https://www.instagram.com/",
       "username": "rasoolTheBoss",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png"
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
     },
     "Behance": {
       "link": "https://www.behance.net/",
@@ -77,7 +77,8 @@
       "date": "2024-01-15",
       "status": "Completed",
       "technologies": ["React", "Node.js", "MongoDB"],
-      "id": "001"
+      "id": "001",
+      "src" : "https://cdn.worldvectorlogo.com/logos/behance-1.svg"
     },
     {
       "name": "Project Beta",
@@ -85,7 +86,8 @@
       "date": "2024-03-22",
       "status": "In Progress",
       "technologies": ["Next.js", "Stripe", "PostgreSQL"],
-      "id": "002"
+      "id": "002",
+      "src":"https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
     },
     {
       "name": "Project Gamma",
@@ -93,7 +95,8 @@
       "date": "2024-06-05",
       "status": "Pending",
       "technlogies": ["React Native", "Firebase", "GraphQL"],
-      "id": "003"
+      "id": "003",
+      "src":"https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
     }
   ],
   "creativeGallery": [

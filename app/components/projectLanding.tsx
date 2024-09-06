@@ -5,7 +5,7 @@ interface ProjectLanding {
 }
 const ProjectLanding = ({text,src}:ProjectLanding) => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           Image

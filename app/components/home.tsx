@@ -3,11 +3,13 @@ import ProjectCards from "./cards";
 
 const HomeComp = () => {
   return (
-    <div className="pt-2">
-      <div className="flex flex-col items-center justify-center text-center">
+    <div className="pt-2 overflow-x-hidden">
+      <div className="flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8">
         <div className="text-3xl mb-2">
           Hello, I'm{" "}
-          <span className="text-customGreen">{userData.user.name || "My Name"}</span>
+          <span className="text-customGreen">
+            {userData.user.name || "My Name"}
+          </span>
         </div>
         <div className="max-w-md text-base font-light">
           {userData.user.description ||
@@ -18,7 +20,7 @@ const HomeComp = () => {
         <div className="items-start">
           <h1 className="text-customGreen">{userData.projects_title}</h1>
         </div>
-        <div className="mt-2">
+        <div className="mt-2 w-full xl:px-40">
           {userData.projects.map((project) => (
             <div className="m-2" key={project.id}>
               <ProjectCards
@@ -32,13 +34,15 @@ const HomeComp = () => {
             </div>
           ))}
         </div>
-        <div className="my-6">
+        <div className="my-6 w-full px-40">
           <div>
-          <h1 className="text-customGreen text-center">Additional Projects</h1>
+            <h1 className="text-customGreen text-center">
+              Additional Projects
+            </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-2">
             {userData.additional_projects.map((project) => (
-              <div className="m-2 w-full" key={project.id}>
+              <div className="w-full" key={project.id}>
                 <ProjectCards
                   name={project.name}
                   description={project.description}
